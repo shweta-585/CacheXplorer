@@ -1,0 +1,11 @@
+what are mapping techniques?
+direct mapped, set associative, full associative
+it is mapping between mm block and cache. 
+direct mapping me 1cache block == 1mm block             retrival : O(1)
+set associative mapping me k cache block == 1mm block   retrival : O(n/k)
+full associative mapping me total cache == 1mm block    retrival : O(n) n=cache size
+Parameters
+
+Cache replacement policy : cache has limited size. when a new element is added 
+and cache is full then how to exchange data between mm and cache.
+FIFO, LRU, LFU

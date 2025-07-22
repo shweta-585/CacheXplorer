@@ -1,0 +1,86 @@
+.memory-visual-container {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.memory-section,
+.cache-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  overflow-y: auto;
+}
+
+
+.memory-section > h3,
+.cache-section > h3 {
+  overflow: none;
+  margin-bottom: 20px;    
+}
+
+.main-memory, .cache-memory {
+  display: flex;
+  overflow-y: auto;
+}
+
+.load-data-containe, .read-data-containe {
+  background-color: antiquewhite;
+}
+
+.load, .read {
+  background-color: rgb(2, 150, 2);
+  padding: 0.5rem;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.load-ip, .read-ip, .memory-info-box {
+  padding: 0.2rem 0.6rem;
+  font-size: 20px;
+}
+
+.load-btn, .read-btn {
+  background-color: #2549fc;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.memory-block,
+.cache-block {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.cache-block {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.command-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.memory-info-box {
+  /* margin-right: 45px; */
+  margin-top: 10px;
+  min-height: 100px;
+}

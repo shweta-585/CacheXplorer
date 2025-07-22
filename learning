@@ -1,0 +1,27 @@
+✅ 1. Parent to Child: Easy via props.
+✅ 2. Child to Parent: Use callback functions passed as props.
+✅ 3. Between Siblings or Unrelated Components: Use lifting state 
+    up to a common parent or use context/global state (e.g., Redux, Zustand).
+
+Common Parent for sibling case. I'll use App.jsx
+
+JSX doesn't support for loop. Use map for arrays.
+
+✅ On LOAD (write):
+
+Depending on the write policy, there are two major strategies:
+
+    Write-through:
+        Data is written to both cache and main memory.
+        Ensures memory is always up-to-date.
+        Slower, but consistent.
+
+    Write-back:
+        Data is written only to the cache initially.
+        Memory is updated later, when that cache line is replaced.
+        Faster, but more complex to manage (requires dirty bit).
+
+✅ On READ:
+    Check cache first:
+        If data is found: Cache hit
+        If not found: Cache miss ➝ fetch from main memory, then load into cache.

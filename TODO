@@ -1,0 +1,5 @@
+how will i decide which block(or word..) to be updated!!
+what will be the format to store them!!
+complext make it simple for now.
+Cache Grid Formatting Logic : 
+    Use tag, valid, dirty & data attributes.

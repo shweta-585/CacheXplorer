@@ -1,0 +1,37 @@
+.mapping-box {
+  color: black;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  max-width: fit-content;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-res-div {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.map-res-box {
+  display: flex;
+  gap: 15px;
+}
+
+.map-res-box > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-res-box > label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.map-res-box > input {
+  padding: 4rem;
+  border-radius: 6px;
+  width: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}

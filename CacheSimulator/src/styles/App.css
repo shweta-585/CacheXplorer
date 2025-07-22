@@ -1,0 +1,22 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.paramapping-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.parameter-container {
+    min-width: 400px;
+    max-width: 400px;
+    margin-left: 4rem;
+    justify-self: flex-end;
+}
+.memoryvisual-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

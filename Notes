@@ -1,0 +1,22 @@
+It is L3 cache slowest & largest also shared.
+
+I am loading data in MM. Cache Limit will be 4 words. 
+I will access data then depending on that find hit/miss ratio.
+
+hitRatio = hitCount / accessCount
+missRatio = 1 - hitRatio
+
+for load(write) implement a simple write policy Write Through for now.
+
+for read :
+    if data not in cache : cache miss read from mm
+    if data not in mm : retriving from secondary memory !! bus itana hi
+
+for write :
+    if block present in cache
+        update both
+    else
+        update mm
+
+Cache Grid Formatting Logic : Do
+    Use tag, valid, dirty & data attributes.
